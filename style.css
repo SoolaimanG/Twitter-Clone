@@ -1,0 +1,51 @@
+.container {
+  z-index: 2;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  color: rgb(198, 196, 196);
+  transform: translate(-50%, -50%);
+  max-width: 35%;
+  background-color: #3030c8;
+  padding: 3% 6%;
+  border-radius: 5px;
+  height: auto;
+}
+.container h2 {
+  margin-bottom: 2%;
+  text-decoration: underline;
+  color: #fff;
+}
+.container button {
+  padding: 10px 20px;
+  background-color: #0d0e64;
+  color: #fff;
+  font-size: 1.1rem;
+}
+.container button:active {
+  background-color: #3030c8;
+}
+/* .origin{
+    text-decoration: ;
+} */
+.err {
+  color: #ef2b2b;
+}
+@media (max-width: 760px) {
+  body {
+    height: 100vh;
+  }
+  .container {
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    color: rgb(198, 196, 196);
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    background-color: #3030c8;
+    padding: 3% 6%;
+    border-radius: 5px;
+    height: auto;
+  }
+}
